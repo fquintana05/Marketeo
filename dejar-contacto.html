@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dejar Contacto - MARKET-EO</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-black text-white py-2">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo" class="img-fluid" style="height: 70px;">
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="nuestros-servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="sobre-nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="dejar-contacto.html">Dejar Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="py-5">
+        <div class="container">
+            <h2 class="text-center">Deja Tu Número de Contacto</h2>
+            <p class="text-center">Nos encantaría saber de ti. Por favor, deja tu número de contacto y te responderemos pronto. 📞</p>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="numero">Número de Contacto:</label>
+                    <input type="tel" class="form-control" id="numero" placeholder="Ingresa tu número" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 MARKET-EO. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
